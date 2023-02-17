@@ -1,0 +1,314 @@
+** start of undefined **
+
+<!doctype html>
+<html lang="en" class="">
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Trocchi|Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <!--learn.freecodecamp.org Responsive Web Design Projects - Build a Product Landing Page-->
+
+
+
+  <header id="header">
+    <img id="header-img" src="https://thumbs.dreamstime.com/b/smart-watch-white-background-graphic-web-design-mode-smart-watch-white-background-graphic-web-design-modern-132569572.jpg" alt="smart_watch" 
+      alt="Logo">
+    <nav id="nav-bar">
+      <a class="nav-link" href="#offers">Offers</a>
+      <a class="nav-link" href="#working">Working</a>
+      <a class="nav-link" href="#features">Features</a>
+    </nav>
+  </header>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <p>Let's get started. Remain updated about the latest <span style="font-family: serif;">Smart Watch</span> with our email feed subscription.</p>
+    <p><input id="email" type="email" name="email" placeholder="Enter your email" required=""></p>
+    <p><input id="submit" type="submit" value="Subscribe"></p>
+  </form>
+  <br>
+
+
+  <div id="features-container">
+    <div id="features">
+      <div>
+        
+        <h2>Easier Journeys</h2>
+        <div>We all know smartwatches can help you navigate using GPS and Google/Apple Maps.Take the Apple Watch, for example, which uses vibration to tell a person to turn right or left. It significantly reduces distractions during travel as you don’t have to look at your smartphone screen again and again.</div>
+      </div><br>
+      <div>
+        
+        <h2>Mini-Smartphone</h2>
+        <div>It helps you access your social media, calendar, important emails, etc. right on your wrist. Many smartwatches, except a few, have a long battery life which can make it a reliable companion device.
+
+What’s more, you can take your entertainment wherever you go with your smartwatch. Also, most smartwatches now come with GPS tracking and SOS so that in case of emergency, you can summon help and your family and friends can easily track your location.</div>
+      </div><br>
+      <div>
+        
+        <h2>Constant Digital Companion</h2>
+        <div>For tech-savvy older adults, smartwatches are a perfect day-to-day gadget. For those who are significantly impaired or at risk, there are some dedicated smartwatches with Medical Alert system. And they don’t have the stigma associated with most wearable medical alert products.</div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+
+
+  <div id="working">
+    <h1>Get an idea of how the Smart Watch appear.</h1>
+    <div id="video-container"><iframe id="video" <iframe width="542" height="305" src="https://www.youtube.com/embed/nSzM1qJBtS8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+  </div>
+
+
+
+  <div id="offers-container">
+    <div id="offers">
+      <div class="offer">
+        <h2>2-Week Battery Life</h2>
+        
+        <div>Amazfit GTS2 Mini Smart Watch.</div>
+        <div>First: GT 2e runs on Huawei’s own Operating System.</div<div>Second: There are no third party apps supported.Third: the GT 2e is powered by Huawei’s own Kirin A1 Processor.So, this is why we get a two-week Battery Life.</div><br>
+        
+      </div>
+      <div class="offer">
+        <h2>All-Day Sp02 Monitoring</h2>
+        
+        <div>Samsung Galaxy Watch 3, Active 2, Apple watch Series 7 & 6.</div>
+        <div>A smartwatch with real-time SpO2 monitoring and recording capabilities helps you always stay on top of your health. Most of these modern SpO2 watches come with an app that reads your oxygen levels within 30.</div><br>
+        
+      </div>
+      <div class="offer">
+        <h2>Full View Display</h2>
+        
+        <div>LEMFO 4 smartwatch</div>
+        <div>When it was introduced, it was once the first smartwatch with the biggest display screen, having a 2.86” inch 640 x 480 pixel resolution. Easy access to menus, more information on the screen, and you can really appreciate the photos, much better than a 1.2” inch screen.</div><br>
+        
+      </div>
+    </div>
+  </div><br>
+
+
+
+  <footer>
+    <a href="#">Privacy</a>
+    <a href="#">Terms</a>
+    <a href="https://www.freecodecamp.org/fcc425bff62-daf5-4684-b9d3-261cf55e8198">Contact</a>
+    <p>Copyright 2100, Smart Watch</p>
+  </footer>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+<style>
+    @media only screen and (max-width: 800px){
+  body {
+  flex-wrap: wrap;
+  }
+  
+  #mystory {
+  margin-left: 0;
+  margin-top: 20%;
+  display: flex; 
+  justify-content: space-between;
+  width: 100%;
+}
+#nav-bar {
+  position: fixed;
+  top: 0px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+  </style>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+body,
+input,
+button {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1,
+h2,
+h3,
+.nav-link {
+  font-family: 'Trocchi', serif;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  background: #3b3b3b;
+  text-align: right;
+  z-index: 1;
+}
+
+#header-img {
+  max-width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0px;
+}
+
+#nav-bar a {
+  float: right;
+  display: block;
+  color: white;
+  transition-duration: 0.4s;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#nav-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#form {
+  margin-top: 55px;
+}
+
+#email {
+  height: 2em;
+  width: 15em;
+  border-radius: 1em;
+  padding-left: 0.6em;
+}
+
+#submit {
+  height: 3em;
+  width: 7em;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+#features-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#features {
+  background-color: lightgray;
+  width: 75%;
+  border-radius: 4em;
+}
+
+#features,
+#working,
+#offers {
+  margin-top: 0px;
+  padding: 55px;
+}
+
+.material-icons {
+  font-size: 5em;
+}
+
+#video-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+#video {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+#offers-container {
+  display: flex;
+  justify-content: center;
+}
+
+#offers {
+  background-color: grey;
+  width: 85%;
+  border-radius: 4em;
+}
+
+.offer {
+  background-color: lightgray;
+  margin: 0.5em;
+  padding: 0.5em;
+  border-radius: 1em;
+}
+
+
+/*.specs {
+  display: inline-flex;
+  background-color: blanchedalmond;
+  float: center;
+  height: 3em;
+  width: 6em;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 1.5em;
+}*/
+
+button {
+  height: 3em;
+  width: 6em;
+  border-radius: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  background-color: lightgray;
+  padding: 0.3em;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  margin-left: 0.5em;
+}
+
+footer p {
+  color: #606060;
+}
+
+@media (max-width: 600px) {
+  #nav-bar {
+    display: none;
+  }
+}
+
+@media (min-width: 700px) {
+  #video-container {
+    padding-top: initial;
+  }
+  #video {
+    position: static;
+    height: 315px;
+    width: 560px;
+  }
+}
+
+** end of undefined **
+

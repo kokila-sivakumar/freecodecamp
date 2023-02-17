@@ -1,0 +1,154 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header><h2>Introduction To PYTHON<h2></header>
+      <ul>
+        <li><a class="nav-link" href="#Language_Features">Language Features</a></li>
+        <li>
+          <a class="nav-link" href="#Variables_and_Data_structures"
+            >Variables and Data structures</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Input_and_Output"
+            >Input and Output</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Functions">Functions</a></li>
+        <li><a class="nav-link" href="#Iteration">Iteration</a></li>
+        <li>
+          <a class="nav-link" href="#Module"
+            >Module</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Applications">Applications</a></li>
+        </nav>
+  <main id="main-doc">
+    <h1>Introduction To PYTHON</h1>
+  <section class="main-section" id="Language_Features">
+    <header><h3>Language Features<h3></header>
+    <ol>
+      <li>Interpreted<p>There are no separate compilation and execution steps like C and C++.
+Directly run the program from the source code.</p></li>
+      <li>Platform Independent<p>Python programs can be developed and executed on multiple operating system platforms</p></li>
+      <li>High-level Language<p>In Python, no need to take care about low-level details such as managing the memory used by the program</p></li>
+      <li>Rich Library Support<p>Besides the standard library, there are various other high-quality libraries such as the Python Imaging Library which is an amazingly simple image manipulation library.</p></li>
+      <li>Embeddable<p>Python can be used within C/C++ program to give scripting capabilities for the program’s users.</p></li>
+    </ol>
+  </section>
+  <section class="main-section" id="Variables_and_Data_structures">
+    <header><h3>Variables and Data structures<h3></header>
+    <p>In other programming languages like C, C++, and Java, you will need to declare the type of variables but in Python you don’t need to do that. Just type in the variable and when values will be given to it, then it will automatically know whether the value given would be an int, float, or char or even a String.</p>
+    <code><div><h4>Input:<h4><div>
+ <div>nums = [] <div>
+ <div>nums.append(21) <div>
+ <div>nums.append(40.5) <div>
+ <div>nums.append(40.5) <div>
+ <div>nums.append("String")
+<div>print(nums)<div>
+  <h4>Output:<h4>
+  <div>[21, 40.5, String]</div>
+</code>
+
+  </section>
+  <section class="main-section" id="Input_and_Output">
+    <header><h3>Input and Output</h3></header>
+    <p>In this section, we will learn how to take input from the user and hence manipulate it or simply display it. input() function is used to take input from the user.</p>
+    <code><div><h4>Input:</h4></div>
+<div>name = input("Enter your name: ")</div>
+# user entered the name 'harssh'
+<div>print("hello", name)</div>
+<h4>Output:<h4>
+<div>hello harssh</div>
+</code>
+  </section>
+  <section class="main-section" id="Functions">
+    <header><h3>Functions<h3></header>
+    <p>You can think of functions like a bunch of code that is intended to do a particular task in the whole Python script. Python used the keyword ‘def’ to define a function.</p>
+    <p><h5>Syntax:<h5>
+
+<div>def function-name(arguments):</div>
+            #function body</p>
+    <code><div><h4>Input</h4></div>
+def hello():
+	<div>print("hello")</div>
+	print("hello again")
+<div>hello()</div>
+</h4>Output:</h4>
+		<div>hello</div>
+    <div>hello again</div>
+    hello
+    <div></div>hello again	
+</code>
+  </section>
+  <section class="main-section" id="Iteration">
+    <header><h3>Iteration<h3></header>
+    <p>As the name suggests it calls repeating things again and again. We will use the most popular ‘for’ loop here.</p>
+    <code><div><h4>Input:</h4></div>
+<div>for step in range(5):</div>
+	print(step)
+  <div><h4>Output:<h4></div>
+  0
+<div>1</div>
+<div>2</div>
+<div>3</div>
+<div>4</div>
+</code>
+  </section>
+  <section class="main-section" id="Module">
+    <header><h3>Module</h3></header>
+    <p>Python has a very rich module library that has several functions to do many tasks.</p>
+    <p>‘import’ keyword is used to import a particular module into your python code. For instance consider the following program.</p>
+    <code><div><h4>Input:</h4></div>
+import math
+
+<div>def Main():</div>
+	num = -85
+
+	<div>num = math.fabs(num)</div>
+	print(num)
+	
+	
+<div>if __name__=="__main__":<div>
+	Main()
+  <div><h4>Output:<h4></div>
+  85.0
+</code>
+  </section>
+  <section class="main-section" id="Applications">
+    <header><h3>Applications<h3></header>
+    <ul>
+    <li>GUI based desktop applications</li>
+    <li>Graphic design, image processing applications, Games, and Scientific/ computational Applications</li>
+    <li>Web frameworks and applications</li>
+    <li>Enterprise and Business applications</li>
+    <li>Operating Systems</li>
+    <li>Education</li>
+    <li>Language Development</li>
+    <li>Software Development</li>
+    <ul>
+  </section>
+  </main>
+  </body>
+  </html>
+  
+
+** end of undefined **
+
+** start of undefined **
+
+ @media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: 2px;
+  }
+
+** end of undefined **
+

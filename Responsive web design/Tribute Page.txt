@@ -1,0 +1,85 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+ </head><meta charset="UTF-8"/>
+ <link rel="stylesheet" href="styles.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<main id="main">
+  <h1 id="title">Viswanathan Anand</h1>
+  <div>
+  <div id="img-div" class="img-container">
+    <figure id="img-div">
+    <img id="image" src="https://th.bing.com/th/id/OIP.8ZMrENMctITbEepVbSWW8AHaEK?pid=ImgDet&rs=1" alt="World Chess Champion Viswanathan Anand" class="image">
+    <div id="img-caption">Indian chess grandmaster</div>
+  </div>
+  </div>
+  <p id="tribute-info">Viswanathan Anand, (born December 11, 1969, Madras [now Chennai], India), Indian chess master who won the Fédération Internationale des Échecs (FIDE; international chess federation) world championship in 2000, 2007, 2008, 2010, and 2012.</p>
+  <p id="tribute-info">Anand learned to play chess from his mother when he was 6 years old. By the time he was 14, Anand had won the Indian National Sub-Junior Championship with a perfect score of nine wins in nine games. At age 15 he became the youngest Indian to earn the international master title. The following year, he won the first of three consecutive national championships. At age 17 Anand became the first Asian to win a world chess title when he won the 1987 FIDE World Junior Championship, which is open to players who have not reached their 20th birthday by January 1 of the tournament year.</p>
+  <p id="tribute-info">Anand followed up that victory by earning the international grandmaster title in 1988. In 1991 Anand won his first major international chess tournament, finishing ahead of world champion Garry Kasparov and former world champion Anatoly Karpov. For the first time since the American Bobby Fischer abandoned the title in 1975, a non-Russian had emerged as a favourite to become world chess champion.</p>
+  <p id="tribute-info">To know more about him <a id="tribute-link" target="_blank" href="https://www.britannica.com/biography/Viswanathan-Anand">click here</a></p>
+</main>
+<body>
+  <style>
+img {
+  background-size: cover;
+  width: auto;
+  height: auto;
+  margin: auto;
+  margin-top: 60px;
+  position: relative;
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+  size: auto;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+
+
+
+#image {
+transition: .5s ease;
+border-radius: 9px;
+width: 100vw;
+}
+</style>
+</main>
+
+
+<style>
+img {
+  background-size: cover;
+  width: auto;
+  height: auto;
+  margin: auto;
+  margin-top: 60px;
+  position: relative;
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+  size: auto;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+
+
+
+
+#image {
+transition: .5s ease;
+border-radius: 9px;
+width: 100vw;
+display: block;
+}
+</style>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+

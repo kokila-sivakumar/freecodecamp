@@ -1,0 +1,95 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to complete the survey</p>
+   
+    <form id="survey-form" action="/">  
+      <fieldset id="profile-information"> 
+        <div>     
+        <label id="name-label" for="name"> Name
+          <input id ="name" class="input-area" type="text" placeholder="Enter your name" required>
+        </label>
+        </div>
+        <div>
+        <label id="email-label" for="email"> Email
+          <input id="email" class="input-area" type="email" placeholder="Enter your Email" required>
+        </label> 
+        </div   
+        <div> 
+        <label id="number-label" for="number">Age:
+          <input id="number" class="input-area" type="number" min="17" max="120" placeholder="Age">
+        </label>
+        </div>
+        <label for="dropdown">Current Role?
+          <select id="dropdown">
+            <option value="Student">Student</option>
+            <option value="Job seeker">Job seeker</option>
+            <option value="Employee">Employee</option>
+            <option value="Employer">Employer</option>
+            <option value="other">Others</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset id="freeCodeCamp-rate">Describe your experience on this site: 
+        <div>    
+        <label for="name">
+          <input type="radio" name="rateChoice" id="name" value="Excellent"/>Excellent
+        </label>
+        <label for="name">
+          <input type="radio" name="rateChoice" id="name" value="Good"/>Good
+        </label>
+        <label for="name">
+          <input type="radio" name="rateChoice" id="name" value="Not Bad"/>Not Bad
+        </label>
+        <label for="name">
+          <input type="radio" name="rateChoice" id="name" value="Bad"/>Bad
+        </label>
+        </div>
+        
+      </fieldset>
+      <fieldset id="fcc-interest"> What you like to see improved?
+        <label for="data-visualization">
+        <input type="checkbox"  id="data-visualization" value="data-Visualization"/> Data Visualization
+        </label>
+        <label for="Videos">
+        <input type="checkbox" id="Videos" value="videos"/> Videos
+        </label>
+        <label for="city-meetups">
+        <input type="checkbox" id="city-meetups" value="city-meetups"/> City Meetups
+        </label>
+        <label for="wiki">
+        <input type="checkbox" id="wiki" value="wiki"/> Wiki
+        </label>
+        <label for="forum">
+        <input type="checkbox" id="forum" value="forum"/> Forum
+        </label>
+        <label for="additional">
+        <input type="checkbox" name="fcc-interest" id="additional" value="additional-courses"/> Additional Courses
+        </label>
+        </fieldset>
+      <fieldset id="sugestions">
+        <label for="comments">Additional comments
+          <textarea id="comments" placeholder="Enter Your comment here..." rows="4"></textarea>
+        </label>
+      </fieldset>    
+      <input type="submit" value="Submit" id="submit"/>  
+    </form> 
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
