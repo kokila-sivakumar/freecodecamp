@@ -1,0 +1,6 @@
+function palindrome(str) {
+  var arr = str.replace(/[^A-Z0-9]/ig, "").toLowerCase();
+  var new_str = arr.split('').reverse().join('');
+  return (arr === new_str);
+}
+palindrome("eye");

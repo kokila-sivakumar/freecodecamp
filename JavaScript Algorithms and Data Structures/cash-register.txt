@@ -1,0 +1,33 @@
+function checkCashRegister(price, cash, cid) {
+  let change=cash-price;
+  let amt={"ONE HUNDRED":100,"TWENTY":20,"TEN":10,"FIVE":5,"ONE":1,"QUARTER":0.25,"DIME":0.1,"NICKEL":0.05,"PENNY":0.01};
+  let value=[];
+  let arr=0;
+  let func=function(m,b,bal){
+    let num=Math.floor(m/amt[b]);
+    let M=m;
+    if(num*amt[b]>=bal){
+      M=(m*1000-bal*1000)/1000;
+      value.push([b,bal]);
+    }else if(num*amt[b]<bal && num!=0){
+      M=(m*1000-num*amt[b]*1000)/1000;
+      value.push([b,num*amt[b]]);
+      arr=(arr*1000+bal*1000-num*amt[b]*1000)/1000;
+    }else if(num==0){
+      M=m;
+      arr=(arr*1000+bal*1000)/1000;
+    }
+    return M;   
+  }
+  for(let i=8;i>=0;i--){
+    change=func(change,cid[i][0],cid[i][1]);
+  }
+  if(change>0){
+    return {"status":"INSUFFICIENT_FUNDS","change":[]};
+  }else if(change==0 && arr==0){
+    return {"status":"CLOSED","change":cid};
+  }else if(change==0 && arr>0){
+    return {"status":"OPEN","change":value};
+  }
+}
+checkCashRegister(19.5, 20, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]])
