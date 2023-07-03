@@ -1,0 +1,6 @@
+.container h1#title {
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 1rem;
+  }
