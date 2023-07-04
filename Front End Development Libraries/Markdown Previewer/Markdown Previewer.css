@@ -1,0 +1,11 @@
+.md-input
+  background-color: #1d1f20
+  border-radius: 4px
+  color: white
+  font-family: 'Roboto Mono', monospace
+  font-size: 12px
+  padding: 10px
+  width: 100%
+  height: 400px
+  @media (min-width: 992px)
+    height: 600px

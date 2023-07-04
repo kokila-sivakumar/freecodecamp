@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+body main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body main .session-label {
+  float: right;
+  font-size: 24px;
+}
+
+body main .break-label {
+  float: left;
+  font-size: 24px;
+}
+
+body main .timer, body main .timer-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+body main .timer .timer-label, body main .timer-controls .timer-label {
+  font-size: 25px;
+}
+
+body main .timer {
+  margin-top: 100px;
+}
+
+
